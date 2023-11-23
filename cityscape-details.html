@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <title>Portfolio Details - CityScape</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -63,17 +65,47 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Game</li>
+                <li><strong>Tags</strong>: Unreal Engine 4</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/BungeeStarHack21"
+                    target="_blank">GitHub</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
+                CityScape is a 3D Action/Adventure game made with UnrealEngine 4. The goal of CityScape is to collect
+                the hidden packages and escape from the city. While you are searching the city, beware of the enemies
+                out to get you, they are heavily armed and can put you down fairly easily. The fixer(you) has abilities
+                that will be useful in your adventure.
+
+              <h5> <br> World</h5>
+              There are several maps in CityScape and the default map is The
+              City. This map uses an asset pack found in UnrealEngine Marketplace (link can be found in GitHub
+              Repostiory Readme file). 2 types of Package are spawned randomly in the map when the game starts. The
+              fake packages will explode when interacted with, while the real ones increase the package counter (that
+              is part of the UI).
+
+              <h5> <br> Enemies</h5>
+              Enemies are created by Patrol Points that are placed in the city. When an enemy is
+              created, it searches for the nearest patrol point and moves to it. After waiting for a variable amount
+              of time, it searches for the next nearest patrol point that is available. With this algorithm, enemies
+              are distributed evenly among the map for a better experience.
+
+              <h5> <br> Character</h5>
+              A simple AI is made using the Behaviour Trees of UnrealEngine 4. The AI supports basic functionalities
+              such as navigation, searching for enemies and atacking.
+              Player character is called The Fixer and it has 3 main abilities:
+              <h6> <br> Grappling Hook</h6>
+              Grappling Hook is useful for traversing the city quickly. It can attach to any surface. The player can
+              swing around or pull itself to the snapping point with high velocity.
+              The pull ability has a cooldown, so it cannot be spammed for any purpose.
+              <h6> <br> Revolver</h6>
+              The player has a revolver that contains very limited ammo, it is a last resort option for taking out
+              enemies.
+              <h6> <br> Wall Dash</h6>
+              When the fixer can use vertical surfaces to pull itself upwards repeatedly. This way it can scale
+              buildings or other entities without needing to use the Grappling Hook.</p>
             </div>
           </div>
 
@@ -85,7 +117,8 @@
   </main><!-- End #main -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
